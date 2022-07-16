@@ -54,25 +54,23 @@ body {
      /* identical to box height */
     
     letter-spacing: 0.03em;   
-     color: #2196F3;
+     color: var(--accent-color);
 }
 .logo-part-theme-dark {
     font-family: var(--secondary-font);
     font-weight: 700;
      font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
     
     letter-spacing: 0.03em; 
-    color:var(--secondary-text-color-theme-dark);
+    color: var(--secondary-text-color-theme-dark);
 }
 .logo-part-theme-light {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
-
+    
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-light);
 }
