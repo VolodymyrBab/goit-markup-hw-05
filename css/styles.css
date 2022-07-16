@@ -1,5 +1,37 @@
 /* sbros stilej */
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color-theme-dark: #ffffff;
+    --primary-text-color-theme-light: #212121;
+    --primary-text-title-color-theme-light: #757575;
+    --secondary-text-color-theme-dark: #ffffff;
+    --secondary-text-color-theme-light: #000000;
+    --accent-color: #2196F3;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
 .list { 
     list-style: none;
 }
@@ -8,9 +40,8 @@
 }
 /* stili shriftov */
 body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: #000000;
+    font-family: var(--primary-font);
+    
 }
 
 /* components */
