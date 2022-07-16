@@ -1,0 +1,230 @@
+/* sbros stilej */
+
+.list { 
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* stili shriftov */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #000000;
+}
+
+/* components */
+
+.link-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+     /* identical to box height */
+    
+    letter-spacing: 0.03em;   
+     color: #2196F3;
+}
+.logo-part {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+     font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em; 
+    color: #000000;
+}
+.menu-link {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+.mail-link, .tel-link {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+
+.mail-link:hover, .mail-link:focus, 
+.tel-link:hover, .tel-link:focus {
+    color: #2196F3;
+}
+.section1-text {
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+        /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+        /* color: #FFFFFF;*/
+  
+}
+.section1-button {
+   
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+        /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.section1-button:hover,
+.section1-button:focus {
+    background-color:#188CE8;
+    color: #FFFFFF
+} 
+
+
+.section2-h3 {
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.section2-p {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+.section3-text, .section4-text {
+           
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.section4-naime {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.section4-p {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+ 
+.adres-link {
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    /* color: #FFFFFF; */
+}
+.adres-mail, .adres-tel {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+.adres-link:hover,
+.adres-link:focus,
+.adres-mail:hover,
+.adres-tel:hover,
+.adres-mail:focus,
+.adres-tel:focus {
+    color: #2196F3;
+}
+
+/* portfolio */
+
+.portfolio-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background: #F5F4FA;
+    color: #212121;
+}
+
+.portfolio-button:focus,
+.portfolio-button:hover {
+    color: #FFFFFF;
+    background: #2196F3
+}
+.uslugi-naime {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+.uslugi-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
