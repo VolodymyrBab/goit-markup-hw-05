@@ -51,8 +51,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-     /* identical to box height */
-    
+         
     letter-spacing: 0.03em;   
      color: var(--accent-color);
 }
@@ -81,11 +80,21 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: #212121;
+    color: var(--primary-text-color-theme-light);
 }
 .menu-link:hover,
-.menu-link:focus {
-    color: #2196F3;
+.menu-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus,
+.adres-link:hover,
+.adres-link:focus,
+.adres-mail:hover,
+.adres-tel:hover,
+.adres-mail:focus,
+.adres-tel:focus {
+    color: var(--accent-color);
 }
 .mail-link, .tel-link {
     
@@ -94,45 +103,38 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: #757575;
+    color: var(--primary-text-title-color-theme-light);
 }
 
-.mail-link:hover, .mail-link:focus, 
-.tel-link:hover, .tel-link:focus {
-    color: #2196F3;
-}
 .section1-text {
     
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-        /* or 136% */
     
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
-        /* color: #FFFFFF;*/
-  
+    color: var(--primary-text-color-theme-dark);
+       
 }
 .section1-button {
    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-        /* identical to box height, or 188% */
-    
+       
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     background-color: #2196F3;
-    color: #FFFFFF;
+    color: var(--primary-text-color-theme-dark);
 }
 .section1-button:hover,
 .section1-button:focus {
     background-color:#188CE8;
-    color: #FFFFFF
+    color: var(--primary-text-color-theme-dark);
 } 
 
 
@@ -144,7 +146,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #212121;
+     color: var(--primary-text-color-theme-light);
 }
 .section2-p {
     
@@ -155,7 +157,7 @@ body {
 
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--primary-text-title-color-theme-light);
 }
 .section3-text, .section4-text {
            
@@ -165,31 +167,29 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+     color: var(--primary-text-color-theme-light);
 }
 .section4-naime {
     
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
 
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+     color: var(--primary-text-color-theme-light);
 }
 .section4-p {
     
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
 
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--primary-text-title-color-theme-light);
 }
  
 .adres-link {
@@ -198,7 +198,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
     
     letter-spacing: 0.03em;
     
@@ -210,42 +209,31 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
 
     letter-spacing: 0.03em;
 
     /* color: rgba(255, 255, 255, 0.6); */
 }
-.adres-link:hover,
-.adres-link:focus,
-.adres-mail:hover,
-.adres-tel:hover,
-.adres-mail:focus,
-.adres-tel:focus {
-    color: #2196F3;
-}
+
 
 /* portfolio */
 
 .portfolio-button {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    /* identical to box height, or 162% */
 
     text-align: center;
     letter-spacing: 0.03em;
 
     background: #F5F4FA;
-    color: #212121;
+    color: var(--primary-text-color-theme-light);
 }
 
 .portfolio-button:focus,
 .portfolio-button:hover {
-    color: #FFFFFF;
-    background: #2196F3
+    color: var(--primary-text-color-theme-dark);
+      background: #2196F3
 }
 .uslugi-naime {
     font-weight: 700;
@@ -255,7 +243,7 @@ body {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+     color: var(--primary-text-color-theme-light);
 }
 .uslugi-p {
     font-weight: 400;
@@ -265,5 +253,5 @@ body {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--primary-text-title-color-theme-light);
 }
