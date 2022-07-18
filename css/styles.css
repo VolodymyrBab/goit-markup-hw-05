@@ -347,6 +347,12 @@ margin-bottom: 30px;
     color: var(--primary-text-color-theme-dark);
       background: #2196F3
 }
+.button-item{
+    margin-bottom: 50px;
+}
+.button-item:not(:last-child){
+    padding-right: 8px;
+}
 .uslugi-list{
     flex-wrap: wrap;
     flex-basis: calc((100%-2*30px)/3);
