@@ -112,9 +112,9 @@ body {
     
     background-color: #F5F4FA;
 }
-.contacts {
+/* .contacts {
    
-}
+} */
 .futer-section{
     background-color: #2F303A;
     padding-top: 60px;
@@ -355,10 +355,8 @@ margin-bottom: 30px;
 justify-content: center;
 margin-bottom: 50px;
 }
-.button-item{
-    
-    
-}
+/* .button-item{   
+} */
 .button-item:not(:last-child){
     padding-right: 8px;
 }
