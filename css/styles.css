@@ -91,9 +91,8 @@ body {
 }
 .page-header{
    
-    border: 1px solid #ECECEC
-    
-    background #ffffff;
+    border-bottom: 1px solid #ECECEC;
+    background:#FFFFFF;
 }
 .section1{
     padding-top: 200px;
@@ -352,11 +351,25 @@ margin-bottom: 30px;
     color: var(--primary-text-color-theme-dark);
       background: #2196F3
 }
+.button-list{
+justify-content: center;
+margin-bottom: 50px;
+}
 .button-item{
-    margin-bottom: 50px;
+    
+    
 }
 .button-item:not(:last-child){
     padding-right: 8px;
+}
+.uslugi-box{
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .uslugi-list{
     flex-wrap: wrap;
