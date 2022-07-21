@@ -84,7 +84,7 @@ body {
 }
 .section2-item{
     width: 270px;
-    height: 101px;
+    /* height: 101px; */
 }
 .section4-item{
     background: #FFFFFF;
@@ -114,11 +114,12 @@ body {
     background-color: #F5F4FA;
 }
 .contacts {
-    padding-top: 60px;
-    padding-bottom: 60px;
+   
 }
 .futer-section{
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* components */
@@ -231,8 +232,7 @@ body {
 
 
 .section2-h3 {
-  
-    font-weight: 700;
+     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -241,7 +241,7 @@ body {
      color: var(--primary-text-color-theme-light);
 }
 .section2-p {
-    
+    padding-top: 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -262,7 +262,7 @@ body {
      color: var(--primary-text-color-theme-light);
 }
 .section4-naime {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -274,7 +274,7 @@ body {
      color: var(--primary-text-color-theme-light);
 }
 .section4-p {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -284,7 +284,10 @@ body {
 
     color: var(--primary-text-title-color-theme-light);
 }
- 
+ .command-box{
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
 .adres-link {
    
     font-style: normal;
@@ -310,7 +313,9 @@ body {
 
     color: rgba(255, 255, 255, 0.6);
 }
-
+.adres-item:not(:last-child){
+    margin-bottom: 9px;
+}
 
 /* portfolio */
 
