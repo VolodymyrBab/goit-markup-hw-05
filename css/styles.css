@@ -106,7 +106,8 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     background: #2F303A;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/image/section1/bak.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)), url("/image/section1/bak.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -439,7 +440,12 @@ margin-bottom: 50px;
     border-radius: 4px;
     background-color: #ffffff
 }
-.social-list_icon, .section5-list_icon{
+.mail-list_icon{
+    background-color: #2196F3;
+    fill: #FFFFFF
+}
+.social-list_icon,
+ .section5-list_icon{
     fill: #afb1b8;
 }
 .social-list-item-link:hover,
