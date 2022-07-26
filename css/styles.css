@@ -102,6 +102,10 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/image/section1/bak.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .section2, .section4,
