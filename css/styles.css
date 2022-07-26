@@ -56,12 +56,13 @@ body {
 .menu,
 .mail-tel,
 /* .hat, */
-.detailes,
+/* .detailes, */
 /* .aktions, */
 /* .command, */
 .section2-list,
 .section3-list,
 .section4-list,
+.section5-list,
 .button-list,
 .uslugi-list
 {
@@ -80,12 +81,14 @@ body {
 }
 .section2-item:not(:last-child), 
 .section3-item:not(:last-child),
-.section4-item:not(:last-child) {
+.section4-item:not(:last-child),
+.section5-item:not(:last-child)
+ {
     margin-right: 30px;
 }
 .section2-item{
-    width: 270px;
-    /* height: 101px; */
+    width: 270px; 
+   
 }
 .section4-item{
     background: #FFFFFF;
@@ -101,7 +104,8 @@ body {
     background: #2F303A;
 }
 
-.section2,.section4{
+.section2, .section4,
+ .section5 {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -233,12 +237,12 @@ body {
 
 
 .section2-h3 {
-     font-weight: 700;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    padding-top: 30px;
      color: var(--primary-text-color-theme-light);
 }
 .section2-p {
@@ -252,7 +256,9 @@ body {
     color: var(--primary-text-title-color-theme-light);
 }
 
-.section3-text, .section4-text {
+.section3-text,
+ .section4-text, 
+ .section5-text {
     margin-bottom: 50px;      
     font-weight: 700;
     font-size: 36px;
@@ -395,16 +401,37 @@ margin-bottom: 50px;
     margin: 0 auto;
 }
 .social-list-item-link{
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-width: 44px;
-height: 44px;
-border-radius: 50%;
-background-color: #a72a2a;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff
 }
-.social-list_icon{
+.section2-list-item-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 170px; */
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA
+}
+.section5-list-item-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-color: #ffffff
+}
+.social-list_icon, .section5-list_icon{
     fill: #afb1b8;
 }
 .social-list-item-link:hover,
@@ -416,3 +443,15 @@ background-color: #2196F3;
     fill: #ffffff;
 
 }
+.section5-list-item-link:hover,
+.section5-list-item-link:focus {
+   
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+}
+.section5-list-item-link:hover .section5-list_icon,
+.section5-list-item-link:focus .section5-list_icon {
+    fill: #2196F3;
+
+}
+
