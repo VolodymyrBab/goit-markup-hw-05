@@ -82,8 +82,8 @@ body {
 .section2-item:not(:last-child), 
 .section3-item:not(:last-child),
 .section4-item:not(:last-child),
-.section5-item:not(:last-child)
- {
+.section5-item:not(:last-child) {
+ 
     margin-right: 30px;
 }
 .section2-item{
@@ -126,9 +126,7 @@ body {
     
     background-color: #F5F4FA;
 }
-/* .contacts {
-   
-} */
+
 .futer-section{
     background-color: #2F303A;
     padding-top: 60px;
@@ -199,6 +197,14 @@ body {
     
     color: var(--primary-text-title-color-theme-light);
 }
+
+.mail-link:hover .mail-list_icon,
+.mail-link:focus .mail-list_icon,
+.tel-link:hover .tel-list_icon,
+.tel-link:focus .tel-list_icon{
+    fill: #2196F3;
+}
+
 
 .section1-text {
     
@@ -304,6 +310,13 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
  }
+
+ .contacts {
+     display: flex;
+     justify-content: left;
+     /* align-items: center; */
+ }
+
 .adres-link {
    
     font-style: normal;
@@ -331,6 +344,19 @@ body {
 }
 .adres-item:not(:last-child){
     margin-bottom: 9px;
+}
+.social-futer-h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: var(--primary-text-color-theme-dark);
+}
+.social-futer:not(:last-child) {
+
+    margin-right: 70px;
 }
 
 /* portfolio */
@@ -419,6 +445,20 @@ margin-bottom: 50px;
     border-radius: 50%;
     background-color: #ffffff
 }
+.social-futer-list-item-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.social-futer-list_icon{
+    fill: #ffffff;
+}
+
 .section2-list-item-link{
     display: flex;
     justify-content: center;
@@ -440,9 +480,10 @@ margin-bottom: 50px;
     border-radius: 4px;
     background-color: #ffffff
 }
-.mail-list_icon{
-    background-color: #2196F3;
-    fill: #FFFFFF
+.mail-list_icon, 
+.tel-list_icon{
+    fill: #757575;
+    margin-right: 10px;
 }
 .social-list_icon,
  .section5-list_icon{
