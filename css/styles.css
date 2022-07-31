@@ -554,13 +554,19 @@ background-color: #2196F3;
     height: 100%;
     background-color: rgba(234, 98, 98, 0.5);
 }
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    
+}
 .modal{
-    height: 400px;
-    width: 600px;
-    background-color: #FFFFFF;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    
+
+    background-color: #FFFFFF;
+
+    height: 400px;
+    width: 600px;
 }

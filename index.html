@@ -66,7 +66,7 @@
      <section class="section1"> 
         <div class="hat container">
             <h1 class="section1-text"> Эффективные решения для вашего бизнеса</h1>
-            <button class="section1-button" type="button">Заказать услугу</button>
+            <button data-open-modal class="section1-button" type="button">Заказать услугу</button>
         </div>
      </section>
 
@@ -454,12 +454,29 @@
         </div>          
     </footer>
 
-<div class="backdrop">
-    <div class="modal">
-        
+    <div class="backdrop" data-backdrop>
+        <div class="modal">
+            <button data-close-modal class="section1-button" type="button">Закрыть</button>
+        </div>
     </div>
-</div>
+    <script>
+        const refs = {
+            openModalBtn: document.querySelector("[data-open-modal]"),
+            closeModalBtn: document.querySelector("[data-close-modal]"),
+            backdrop: document.querySelector("[data-backdrop"),
+        };
+        refs.openModalBtn.addEventListener("click", toggleModal);
+        refs.closeModalBtn.addEventListener("click", toggleModal);
+        refs.backdrop.addEventListener("click", logBackdropClick);
 
+        function toggleModal() {
+            refs.backdrop.classList.toggle("is-hidden");
+        }
+        function logBackdropClick() {
+            console.log("Eto click v beckdrop");
+        }
+
+    </script>
 
 </body>
 </html>
