@@ -310,7 +310,7 @@ body {
 
 }
 .section4-naime {
-    /* margin-top: 30px; */
+   
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -340,7 +340,6 @@ body {
  .contacts {
      display: flex;
      justify-content: left;
-     /* align-items: center; */
  }
 
 .adres-link {
@@ -508,11 +507,7 @@ margin-bottom: 50px;
 .uslugi-link:focus .uslugi-overlay{
     transform: translate(0,0);
 }
-/* .is-hidden {
-    opacity: 0;
-    pointer-events: none;
 
-} */
 
 /* svg */
 
@@ -580,7 +575,7 @@ margin-bottom: 50px;
 .social-futer-list-item-link:focus,
 .social-list-item-link:hover,
 .social-list-item-link:focus{
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #2196F3;
 }
 .social-list-item-link:hover .social-list_icon,
