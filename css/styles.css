@@ -176,6 +176,7 @@ body {
     letter-spacing: 0.02em;
     
     color: var(--primary-text-color-theme-light);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link:hover,
 .menu-link:focus,
@@ -189,7 +190,7 @@ body {
 .adres-tel:hover,
 .adres-mail:focus,
 .adres-tel:focus {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     color: var(--accent-color);
 }
 .mail-link, .tel-link {
@@ -200,13 +201,14 @@ body {
     letter-spacing: 0.02em;
     
     color: var(--primary-text-title-color-theme-light);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-link:hover .mail-list_icon,
 .mail-link:focus .mail-list_icon,
 .tel-link:hover .tel-list_icon,
 .tel-link:focus .tel-list_icon{
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     fill: #2196F3;
 }
 
@@ -246,15 +248,15 @@ body {
     letter-spacing: 0.06em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     background-color: #2196F3;
     color: var(--primary-text-color-theme-dark);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section1-button:hover,
 .section1-button:focus {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     background-color:#188CE8;
     color: var(--primary-text-color-theme-dark);
 } 
@@ -352,6 +354,7 @@ body {
     letter-spacing: 0.03em;
     
     color: var(--primary-text-color-theme-dark);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adres-list{
     margin-top: 20px;
@@ -366,6 +369,7 @@ body {
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adres-item:not(:last-child){
     margin-bottom: 9px;
@@ -406,15 +410,14 @@ body {
     padding-right: 22px;
     background: #F5F4FA;
     color: var(--primary-text-color-theme-light);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:focus,
 .portfolio-button:hover {
-    transition: color 250ms 
-    cubic-bezier(0.4, 0, 0.2, 1),
-    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    
     color: var(--primary-text-color-theme-dark);
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
@@ -440,14 +443,12 @@ margin-bottom: 50px;
     padding-right: 24px;
 }
 .uslugi-box-bg{
-    
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 370px;
-    /* height: 294px; */
 }
 .uslugi-box-bg:hover,
 .uslugi-box-bg:focus {
-    transition: box-shadow 250ms
-     cubic-bezier(0.4, 0, 0.2, 1);
+    
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -526,6 +527,7 @@ margin-bottom: 50px;
     height: 44px;
     border-radius: 50%;
     background-color: #ffffff
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-futer-list-item-link{
     display: flex;
@@ -561,38 +563,41 @@ margin-bottom: 50px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     background-color: #ffffff
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-list_icon, 
 .tel-list_icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #757575;
     margin-right: 10px;
 }
 .social-list_icon,
  .section5-list_icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #afb1b8;
 }
 .social-futer-list-item-link:hover,
 .social-futer-list-item-link:focus,
 .social-list-item-link:hover,
 .social-list-item-link:focus{
-    transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     background-color: #2196F3;
 }
 .social-list-item-link:hover .social-list_icon,
 .social-list-item-link:focus .social-list_icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     fill: #ffffff;
 
 }
 .section5-list-item-link:hover,
 .section5-list-item-link:focus {
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     border: 1px solid #2196F3;
     border-radius: 4px;
 }
 .section5-list-item-link:hover .section5-list_icon,
 .section5-list-item-link:focus .section5-list_icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     fill: #2196F3;
 
 }
