@@ -90,6 +90,9 @@ body {
     width: 270px; 
    
 }
+.section3-item{
+    position: relative;
+}
 .section4-item{
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -282,6 +285,23 @@ body {
     letter-spacing: 0.03em;
     
      color: var(--primary-text-color-theme-light);
+}
+.section3-item-text{
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 27px;
+    color: var(--primary-text-color-theme-dark);
+    background: rgba(47, 48, 58, 0.8);
+
 }
 .section4-naime {
     /* margin-top: 30px; */
